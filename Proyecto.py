@@ -9,7 +9,7 @@ PointList = []
 print()
 print('                 BIENVENIDO A DRAW®             ')
 print()
-print('Este software le permitira libremente en un lienzo de 50x100 pixeles')
+print('Este software le permitira dinbujar libremente en un lienzo de 50x100 pixeles')
 print('---------------------------------------------------------------------')
 brush = input('Por favor ingrese el caracter con el que quiere dibujar: ')
 print()
@@ -68,7 +68,7 @@ for i in range(CantidadFiguras):
         pos_y = int(input("Ingrese la posicion eje y: "))
         radio = int(input("Ingrese el radio: "))
         curva = int(input("Ingrese el nivel de curva, (menor que el radio): "))
-        inverted = int(input("Desea que este hacia [1] arriba o hacia [2] abajo: "))
+        inverted = int(input("Desea que este hacia [1] arriba o hacia [0] abajo: "))
 
         PointList += Draw.semicircle(pos_x, pos_y, radio, curva, inverted)
 
