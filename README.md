@@ -1,4 +1,4 @@
-## Protecto de ICC: DRAW®
+## Proyecto de ICC: DRAW®
 
 ### Descripcion del programa:
 
